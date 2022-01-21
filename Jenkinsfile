@@ -17,5 +17,8 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('zip') {
+            steps {
+                echo 'zip....'
     }
 }
